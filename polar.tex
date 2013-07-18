@@ -41,10 +41,11 @@ Netmask: 		& $2^8-2^{n \bmod 8}$\\
 \end{tabular}
 
 Applying the CIDR values of $n$ from $24\cdots32$, the diagram shows that the
-increment decreases by powers of two from $128$. It also shows that each
-increasing CIDR value is derived by dividing every region in half. So a $/24$
-holds the whole circle, while a $/25$ is two regions between $0-128$ and
-$129-255$.
+increment decreases by powers of two from $128$ when viewing the black and white
+arc-regions, starting from the origin. It also shows that each increasing CIDR
+value is derived by dividing every region in half, following the colord regions,
+counter-clockwise. So a $/24$ subnet holds the whole circle, while a $/25$
+subnet contains two regions between $0-128$ and $129-255$.
 
 \section{Binary}
 
