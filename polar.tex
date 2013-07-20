@@ -33,9 +33,9 @@ is broken into $256$ subdivisions where a value is addressed by
 $\theta=n_{bits}*360/256$. Basic fomulas for network values are found by:
 
 \begin{tabular}{ll}
-Number of hosts: 	& $2^h-2$\\
-Host bits: 		& $h$\\
+Host bits:   		& $h$\\
 Network bits: 		& $n=32-h$\\
+Number of hosts: 	& $2^h-2$\\
 Increment: 		& $2^{n \bmod 8}$ or $2^{8-h \bmod 8}$\\
 Netmask: 		& $2^8-2^{n \bmod 8}$\\
 \end{tabular}
